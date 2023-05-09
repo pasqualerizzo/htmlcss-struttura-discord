@@ -40,16 +40,16 @@ header div .row {
 /* inizio primo layout */
 .column-pink {
     background-color:#ee82ee ;
-    width: 75%;
     height: 300px;
     display: flex;
-    justify-content: center;
+    margin: 0 45px;
 }
 
 
 .background-blu {
     height: 400px;
     background-color:#00008b;
+    padding-top: 50px;
 }
 /* fine primo layout */
 
@@ -112,7 +112,7 @@ header div .row {
 
 .background-black {
     background-color: #23272a;
-    height: 500px;
+    height: 450px;
     padding-top: 5px;
 }
 
@@ -137,7 +137,28 @@ header div .row {
     border: dashed 1px white;
     width: 25%
 }
+hr {
+    margin-top: 25px;
+}
+/* footer */
 
+footer {
+    background-color: #23272a;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:#7fffd4 ;
+    align-items: center;
+    height: 40px;
+}
+.footer-logo{
+    background-color: #ffc0cb;
+}
+.footer-bottone{
+    background-color: #ffc0cb;
+}
 
 
 /* Debug */
