@@ -1,0 +1,164 @@
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* General */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+header div .row {
+    display: flex;
+    background-color: #daa520;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.column-logo, .column-login {
+    width: 25%;
+}
+
+.column-link {
+    width: 50%;
+    text-align: center;
+}
+/* fine header */
+
+
+/* inizio primo layout */
+.column-pink {
+    background-color:#ee82ee ;
+    width: 75%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.background-blu {
+    height: 400px;
+    background-color:#00008b;
+}
+/* fine primo layout */
+
+
+/* inizio secondo layout */
+.background-white {
+    height: 500px;
+    background-color:#ffffff;
+    padding-top: 50px;
+}
+
+.my-row1 {
+    display: flex;
+}
+/* fine secondo layout */
+
+.column-blu {
+    background-color:#1e90ff;
+    height: 400px;
+    width: 60%;
+}
+
+.column-pelle {
+    background-color: #ffc0cb;
+    height:400px;
+    width: 40%;
+}
+
+/* inizio terzo layout */
+.my-row2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.background-grey {
+    height: 500px;
+    background-color:#d3d3d3;
+    padding: 50px 0;
+}
+/* fine terzo layout */
+
+/* quarto layout identico al secondo */
+
+/* quinto layout */
+.background-grey2 {
+    height: 800px;
+    background-color:#d3d3d3;
+    padding: 50px 0;
+}
+
+.column-verde {
+    height: 700px;
+    background-color:#228b22 ;
+}
+
+/* sesto layout */
+.my-row4{
+    display: flex;
+}
+
+.background-black {
+    background-color: #23272a;
+    height: 500px;
+    padding-top: 5px;
+}
+
+.column-rosa2 {
+    background-color:#f08080;
+    height: 400px;
+    width:40%;
+}
+.column-acqua {
+    background-color:#20b2aa;
+    height: 400px;
+    width:60%;
+}
+
+.my-row5 {
+    display: flex;
+}
+
+.column-acqua-interni {
+    background-color:#20b2aa;
+    height: 400px;
+    border: dashed 1px white;
+    width: 25%
+}
+
+
+
+/* Debug */
+
+div .container > *,
+div .row > * 
+{
+    border: dashed 1px;
+}
+
+div .my-row1 > * {
+    border: dashed 1px;
+}
+
+
+div .my-row2 > * {
+    border: dashed 1px;
+}
+
+.debug header {
+    background-color:#add8e6;
+    height: 30px;
+}
+
